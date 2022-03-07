@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>ZRCV_PDT_byHU</title>
+		<script type="text/javascript">
+    window["sap-ushell-config"] = {
+        defaultRenderer : "fiori2",
+        renderers: {
+			fiori2: {
+				componentData: {
+					config: {
+						search: "hidden"
+					}
+				}
+			}
+		},
+		applications: {
+			"title-display": {
+				additionalInformation: "SAPUI5.Component=retailstore.ZRCV_PDT_byHU",
+				applicationType: "URL",
+				url: "./"
+			}
+		}
+    };
+</script>
+<script src="test-resources/sap/ushell/bootstrap/sandbox.js" id="sap-ushell-bootstrap"></script>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.ushell, sap.collaboration, sap.m, sap.ui.layout"
+			
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"retailstore.ZRCV_PDT_byHU": "./"}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+		<script type="text/javascript">
+    sap.ui.getCore().attachInitEvent(function() {
+        sap.ushell.Container.createRenderer().placeAt("content");
+    });
+</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
